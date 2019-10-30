@@ -1,0 +1,15 @@
+{
+  "name": "ice-cream-app",
+  "version": "1.0.0",
+  "description": "Ice Cream app ordering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ice",
+    "cream"
+  ],
+  "author": "Oliver Mendez",
+  "license": "MIT"
+}
