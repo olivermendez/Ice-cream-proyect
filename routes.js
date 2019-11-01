@@ -21,6 +21,7 @@ module.exports =[
 },
 
 {
+        path:'/create-user',
         method: 'POST',
         options:{
                 //validando los datos del usuario
@@ -33,8 +34,33 @@ module.exports =[
                 }
         },
          
-        path:'/create-user', //url
+        
         handler: user.createUser
+
+},
+
+
+{
+        method: 'GET', //Metodo http
+        path:'/login', //url
+        handler: site.login
+
+},
+{
+        path:'/validate-user',
+        method: 'POST',
+        options:{
+                //validando los datos del usuario
+                validate:{
+                        payload:{
+                                email:Joi.string().required(),
+                                password:Joi.string().required().min(6)
+                        }
+                }
+        },
+         
+        
+        handler: user.validateUser
 
 },
 
