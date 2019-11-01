@@ -1,12 +1,13 @@
 'use strict' 
-
 //Requerir el modulo de hapi (Framework)
 const Hapi = require('hapi');
 
+const handlerbars = require('handlebars');
+
 //Framework para dar respuesta a archivos.
 const inert = require('inert');
-
 const path = require('path');
+const vision = require('vision');
 
 //Se configura el servidor de la app.
 const server = Hapi.Server({
@@ -29,17 +30,50 @@ async function init(){
     
     try{
         await server.register(inert);
+        await server.register(vision);
+        
+
+        server.views({
+            engines:{
+                hbs: handlerbars
+            },
+            relativeTo: __dirname,
+            path:'views',
+            layout: true,
+            layoutPath:'views'
+        });
 
         //definiendo las rutas
         server.route({
             method: 'GET', //Metodo http
-            path:'/home', //url
-        
-        //controlador de la ruta
+            path:'/', //url
             handler:(req,h) => {
-            return h.file('index.html');
-            //El objeto <h> trae consigo un conjunto de respuestas
-        }
+                return h.view('index',{
+                    title:'home'
+                });
+            }
+    
+    });
+
+        server.route({
+            method: 'GET', //Metodo http
+            path:'/register', //url
+            handler:(req,h) => {
+                return h.view('register',{
+                    title:'Registro'
+                });
+            }
+
+    });
+
+        server.route({
+            method: 'POST', //Metodo http
+            path:'/create-user', //url
+            handler:(req,h) => {
+                console.log(req.payload);
+                return 'Usuario creado.';
+            }
+
     });
 
         server.route({
