@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ice-cream-ordering-2603d",
+  "private_key_id": "42e8c53a4dafa28f44986300582826d9b264d64a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDK5p0ef39ubuuv\nEpnblSJVwc8ypx7x48dkzjHOKmi0bM6NWPCQYcWdggDRGYzFzkjbPWEiOpueys/q\nsU2kC6H4kM19GsXanhKsPSa5OXgwxZVJUfSGPvwP6+FRzcv7e7TtmVKUeLuxnadF\naYE/2TtcZePQEocMkLouMpmwLcRVzMVGTLMX5zMRDmGBhzG7UzlgASQlNMJobocy\nsToNcX0UQrYXGE66et82mClfo8xaB8h5OsWyaBvQz5YUBqmTxaU/LgLuuCT2olQC\nvXoLFSysu7vsPtoLVqyYwlRmtp7L2ZY0k/a/0JCMOW7eT/cvrrDWsecqSWKlC4os\n260gncF3AgMBAAECggEAA01vBKZcaFHYds0gzipzWIQvv3cDGAdpYR8oDJKAVmHb\nZM3FsJvrljPQ/pZILJbXqCKruF2a127p2AiSjaQXOujK2qMhnq+dXzDpnSP6n4fM\njvJzpLtVHMJtziHBSBkZEBfDeKFhPYCMge+eYaMpn66uEng5IX+58z/yMQqcD2EF\ngZGsCt+gkvYL9klZgbUii74FSYPN8DB3+JeWPOweLdT2QRcMaYNJ1Iq/YRYNZyBV\niQ5lJtb45tKIFLlzLKoB/y+1u+lGV8Yy5GTM8XkCG1o9YrIUP3zDeQq45StvBNGm\n8uj4341UEtPi5E9EY1r6OFop8HXhuT/4UsEaETGESQKBgQD6h2pAfFyySvkbfm8X\nt8sYCrwOxG2Zlj6iFzr5Nh+H1VO9IDNdlH8ZJzq5TKiLiaTcY8GhnGUtmF5H9i87\njdjfOmUShb1/xNLMRGK1Jlvj1XCvChutQDzhwb52vevRHOwPO52y1aZ1Ca5AYvLw\nqtR434mVIvBVKe1ASMbe59RAPwKBgQDPVO7gZKl5gTlpKbrqBouxemF3sccG1u/y\nStKSOGhfeoOH/MwmdcHB1DArjFaMiWlpRCseE+ryA34GIR88XYbDF5lFjelswrVI\ne7wBVHnV3rjECYExjaLKJIKGZmdB4ANl9Wewk9a6WPZt9fxC0tu2YusBHxP8k+9g\nZXqtXjSwyQKBgDI5B1HaHHMZmIqsc/TbQXmWXVDQi/AoMHIqGgZvlS6T02+sjt+J\nr1kJhjozZe5jL4uG7ABL6/SSAQSIE7vqmblWaYCnEvAUMvYEF42dHPq1hRtx+U5n\n/Ex9nIMNW8LV+3SqTNjW/8GiqS37KBybAnEgzuH42RkZiJhEfqmc6+3dAoGBAK9g\nXJ+bBnAtCu8VyXHkD44UwxWIX549ecIt4GinJkJ9U31YLSfrO/ZFEmoDz8IZCf1t\nGDvdBUOqCJQOuGlLg47LC292VxkUqluhrqpBVr2+I/RPReUwtZ7fuzkMrhNe9gDs\n0MTgiSYf0nO5O6Uaz5c7nSXZsAJa8IVN0bOMmG1hAoGAOZ6QAatxzAv6C92133sx\nYM2X+PgVjuKw6PfaRk1hx3UIIUAEPbllqOJwc9e1e6aKHpkKtSIgpjQSpN81cgHR\n9OxXGVcfGaPpUCvO/UzG34/VojMRYxiI6WcgYbYxgPFSrmTfgr6KTjD5BSbY3y3B\nuMtCFxWrYvauRWIAyBr8aC8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-1u6cb@ice-cream-ordering-2603d.iam.gserviceaccount.com",
+  "client_id": "114743819233411502566",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-1u6cb%40ice-cream-ordering-2603d.iam.gserviceaccount.com"
+}

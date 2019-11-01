@@ -1,8 +1,6 @@
 'use strict'
 
 const Joi = require('joi');
-
-
 const site = require('./controllers/site');
 const user = require('./controllers/user');
 
