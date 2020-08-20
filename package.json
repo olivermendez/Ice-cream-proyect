@@ -20,7 +20,7 @@
     "standard": "^14.3.1"
   },
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "firebase-admin": "^8.7.0",
     "handlebars": "^4.5.1",
     "hapi": "^18.1.0",
